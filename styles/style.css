@@ -39,8 +39,19 @@ ol {
 }
 
 .content {
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
   width: 1140px;
-  height: 534px;
   margin: auto;
-  overflow: hidden;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__details {
+  height: 534px;
+  overflow: hidden scroll;
 }

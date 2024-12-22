@@ -78,3 +78,7 @@ ol {
   margin-top: 26px;
   overflow: hidden scroll;
 }
+
+.content__video-card {
+  display: flex;
+}

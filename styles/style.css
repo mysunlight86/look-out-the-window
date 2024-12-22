@@ -39,19 +39,39 @@ ol {
 }
 
 .content {
-  display: flex;
-  align-items: flex-end;
+  display: grid;
+  grid-template-columns: 711px 399px;
+  grid-template-rows: 534px;
   gap: 30px;
   width: 1140px;
   margin: auto;
 }
 
+.result {
+  align-self: end;
+}
+
+.result__video-container {
+  margin-bottom: 16px;
+}
+
+.result__video {
+  width: 100%;
+}
+
 .search-form {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 235px 212px 194px;
+  grid-template-rows: 54px;
+  gap: 35px;
 }
 
 .content__details {
-  height: 534px;
+  align-self: end;
+}
+
+.content__list {
+  height: 298px;
+  margin-top: 26px;
   overflow: hidden scroll;
 }

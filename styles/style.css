@@ -71,6 +71,9 @@ ol {
 }
 
 .content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
   height: 298px;
   margin-top: 26px;
   overflow: hidden scroll;

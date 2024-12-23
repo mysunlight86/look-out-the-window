@@ -84,6 +84,10 @@ ol {
   justify-content: space-between;
 }
 
+.content__video-card-description-container {
+  width: 100%;
+}
+
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;

@@ -77,6 +77,16 @@ ol {
   align-self: end;
 }
 
+.title {
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 70.5px;
+}
+
+.content__accent {
+  color: #545050;
+}
+
 .content__list {
   display: flex;
   flex-direction: column;

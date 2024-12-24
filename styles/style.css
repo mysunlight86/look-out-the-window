@@ -49,6 +49,7 @@ ol {
 
 .result {
   align-self: end;
+  position: relative;
 }
 
 .result__video-container {
@@ -77,6 +78,7 @@ ol {
   height: 298px;
   margin-top: 26px;
   overflow: hidden scroll;
+  position: relative;
 }
 
 .content__video-card {
@@ -93,4 +95,8 @@ ol {
   height: 103px;
   object-fit: cover;
   object-position: center;
+}
+
+.preloader {
+  position: absolute;
 }

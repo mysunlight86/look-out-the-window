@@ -96,6 +96,11 @@ ol {
   overflow: hidden scroll;
 }
 
+.content__card-link {
+  text-decoration: none;
+  color: #fff;
+}
+
 .content__video-card {
   display: flex;
   justify-content: space-between;

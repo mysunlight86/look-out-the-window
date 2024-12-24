@@ -67,6 +67,12 @@ ol {
   gap: 35px;
 }
 
+.search-form__fieldset-title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.6px;
+}
+
 .content__details {
   align-self: end;
 }

@@ -48,8 +48,8 @@ ol {
 }
 
 .result {
-  align-self: end;
   position: relative;
+  align-self: end;
 }
 
 .result__video-container {
@@ -61,15 +61,14 @@ ol {
 }
 
 .search-form {
-  display: grid;
-  grid-template-columns: 235px 212px 194px;
-  grid-template-rows: 54px;
-  gap: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .search-form__fieldset-title {
-  font-size: 18px;
   font-weight: 400;
+  font-size: 18px;
   line-height: 21.6px;
 }
 
@@ -78,8 +77,8 @@ ol {
 }
 
 .title {
-  font-size: 75px;
   font-weight: 700;
+  font-size: 75px;
   line-height: 70.5px;
 }
 
@@ -88,13 +87,13 @@ ol {
 }
 
 .content__list {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 32px;
   height: 298px;
   margin-top: 26px;
   overflow: hidden scroll;
-  position: relative;
 }
 
 .content__video-card {

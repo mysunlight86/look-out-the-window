@@ -146,6 +146,10 @@ ol {
   overflow: hidden scroll;
 }
 
+.content__list::-webkit-scrollbar {
+  width: 0;
+}
+
 .content__card-link {
   color: #fff;
   text-decoration: none;

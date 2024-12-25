@@ -66,6 +66,10 @@ ol {
   align-items: flex-start;
 }
 
+.search-form__fieldset {
+  border: none;
+}
+
 .search-form__fieldset-title {
   font-weight: 400;
   font-size: 18px;

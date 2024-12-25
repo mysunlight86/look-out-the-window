@@ -116,6 +116,15 @@ ol {
 
 .search-form__checkbox-list {
   display: flex;
+  gap: 15px;
+  margin-top: 6.5px;
+}
+
+.search-form__pseudo-checkbox {
+  width: 19px;
+  height: 19px;
+  margin-right: 2px;
+  border: 1px solid #fff;
 }
 
 .search-form__submit-button {

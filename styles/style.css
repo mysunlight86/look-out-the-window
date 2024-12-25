@@ -69,7 +69,7 @@ ol {
 .search-form__fieldset-title {
   font-weight: 400;
   font-size: 18px;
-  line-height: 21.6px;
+  line-height: 1.2;
 }
 
 .content__details {
@@ -79,7 +79,7 @@ ol {
 .title {
   font-weight: 700;
   font-size: 75px;
-  line-height: 70.5px;
+  line-height: 0.94;
 }
 
 .content__accent {
@@ -97,8 +97,8 @@ ol {
 }
 
 .content__card-link {
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
 }
 
 .content__video-card {
@@ -108,6 +108,16 @@ ol {
 
 .content__video-card-description-container {
   width: 100%;
+}
+
+.content__video-card-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.content__video-card-description {
+  line-height: 0.9;
 }
 
 .content__video-card-thumbnail {

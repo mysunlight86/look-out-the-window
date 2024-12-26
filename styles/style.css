@@ -175,6 +175,22 @@ ol {
   cursor: pointer;
 }
 
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+}
+
+.button:active {
+  background-color: #545050;
+}
+
 .search-form__submit-button {
   padding: 6px 73.5px;
 }

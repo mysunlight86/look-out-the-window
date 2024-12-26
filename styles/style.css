@@ -63,7 +63,7 @@ ol {
 .search-form {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 
 .search-form__fieldset {
@@ -127,8 +127,19 @@ ol {
   border: 1px solid #fff;
 }
 
-.search-form__submit-button {
+.button {
+  border: 1px solid #fff;
+  color: inherit;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.2;
+  background-color: transparent;
   cursor: pointer;
+}
+
+.search-form__submit-button {
+  padding: 6px 73.5px;
 }
 
 .content__details {
@@ -192,4 +203,9 @@ ol {
 
 .preloader {
   position: absolute;
+}
+
+.more-button {
+  width: 100%;
+  padding: 6px 0;
 }

@@ -48,11 +48,11 @@ ol {
 }
 
 .result {
-  position: relative;
   align-self: end;
 }
 
 .result__video-container {
+  position: relative;
   margin-bottom: 16px;
 }
 

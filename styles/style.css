@@ -110,7 +110,7 @@ ol {
   font-weight: 400;
   font-size: 17px;
   line-height: 1.2;
-  background-color: transparent;
+  background-color: #000;
   cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -120,6 +120,36 @@ ol {
 .search-form__textfield:focus {
   border: none;
   outline: none;
+}
+
+.search-form__textfield::-webkit-input-placeholder {
+  color: #fff;
+  background-color: #000;
+}
+
+.search-form__textfield:-moz-placeholder {
+  color: #fff;
+  background-color: #000;
+}
+
+.search-form__textfield::-moz-placeholder {
+  color: #fff;
+  background-color: #000;
+}
+
+.search-form__textfield:-ms-input-placeholder {
+  color: #fff;
+  background-color: #000;
+}
+
+.search-form__textfield::-ms-input-placeholder {
+  color: #fff;
+  background-color: #000;
+}
+
+.search-form__textfield::placeholder {
+  color: #fff;
+  background-color: #000;
 }
 
 .search-form__label:has(.search-form__textfield:focus-visible) {

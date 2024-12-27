@@ -255,8 +255,25 @@ ol {
 
 .content__card-link {
   display: block;
+  margin: 2px;
   color: #fff;
   text-decoration: none;
+}
+
+.content__card-link:hover {
+  text-decoration: underline;
+}
+
+.content__card-link:active {
+  background-color: #545050;
+}
+
+.content__card-link:focus {
+  outline: none;
+}
+
+.content__card-link:focus-visible {
+  border: 1px solid #fff;
 }
 
 .content__card-link_current {

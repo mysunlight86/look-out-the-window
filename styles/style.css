@@ -259,6 +259,10 @@ ol {
   text-decoration: none;
 }
 
+.content__card-link_current {
+  background-color: #545050;
+}
+
 .content__video-card {
   display: flex;
   justify-content: space-between;
@@ -273,6 +277,7 @@ ol {
   font-weight: 700;
   font-size: 30px;
   line-height: 1;
+  text-transform: uppercase;
 }
 
 .content__video-card-description {
